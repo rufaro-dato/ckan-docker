@@ -1,0 +1,14 @@
+# rufaro-js:
+#   filter: rjsmin
+#   output: ckanext-rufaro/%(version)s-rufaro.js
+#   contents:
+#     - js/rufaro.js
+#   extra:
+#     preload:
+#       - base/main
+
+# rufaro-css:
+#   filter: cssrewrite
+#   output: ckanext-rufaro/%(version)s-rufaro.css
+#   contents:
+#     - css/rufaro.css
